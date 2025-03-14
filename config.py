@@ -2,7 +2,7 @@
 
 
 # Window
-WINDOW_SIZE = "1200x600"
+WINDOW_SIZE = "1231x686"
 
 BACKGROUND = 'white'
 SND_BACKGROUND = 'lightgray'

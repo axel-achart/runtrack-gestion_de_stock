@@ -22,7 +22,7 @@ def main():
     TITLE_FONT = tkinter.font.Font(family=family_font, size=title_size_font, weight=weight_font)
 
     # Title in window
-    title_label = tk.Label(screen, text="Dashboard", font=TITLE_FONT)
+    title_label = tk.Label(screen, text="Tableau de bord", font=TITLE_FONT)
     title_label.pack(pady=10)
 
     main_frame = tk.Frame(screen)
@@ -36,7 +36,7 @@ def main():
     stock_label.pack(pady=10)
 
     # Treeview for visualisation in table
-    columns = ("ID", "Name", "Description", "Price", "Quantity", "ID_Category")
+    columns = ("ID", "Nom", "Description", "Prix", "Quantité", "ID Catégorie")
     product_tree = ttk.Treeview(left_frame, columns=columns, show="headings")
     product_tree.pack(padx=10, pady=5)
 
@@ -64,14 +64,16 @@ def main():
 
 
     # Buttons in Right Frame
-    add_button = tk.Button(right_frame, text="Add", command=add, font=FONT)
+    manager = StockManager(product_tree)
+
+    add_button = tk.Button(right_frame, text="Ajouter", command=lambda: AddProductWindow(screen, manager))
     add_button.pack(pady=30)
 
-    del_button = tk.Button(right_frame, text="Delete", command=remove, font=FONT)
+    del_button = tk.Button(right_frame, text="Supprimer", command=lambda: RemoveProductWindow(screen, manager))
     del_button.pack(pady=30)
-
-    edit_button = tk.Button(right_frame, text="Edit", command=edit, font=FONT)
+    edit_button = tk.Button(right_frame, text="Modifier", command=lambda: EditProductWindow(screen, manager))
     edit_button.pack(pady=30)
+
 
     # Tkinter Loop
     screen.mainloop()

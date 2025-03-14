@@ -9,9 +9,10 @@ def get_products():
     conn = mysql.connector.connect(
         host = "localhost",
         user="root",
-        password="mdp",
+        password="@testsql",
         database="store"
     )
+
     cursor = conn.cursor()
     cursor.execute("SELECT * FROM product")  
     product = cursor.fetchall()
