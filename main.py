@@ -8,6 +8,7 @@ from tkinter import ttk
 from database import *
 from display import *
 from back import *
+from refresh import StockManager
 
 
 # Main Function
