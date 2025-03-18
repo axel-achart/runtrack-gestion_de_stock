@@ -1,33 +1,33 @@
-# 📂 Runtrack Gestion de Stock - SQL & Python
+# 📂 Runtrack Inventory Management - SQL & Python
 
 ## 📌 Introduction
-Ce projet de 3 jours consiste à développer un système de gestion de stock pour un magasin (par exemple : alimentaire, hygiène, vêtements) en utilisant **MySQL** pour la base de données et **Python** pour le développement du tableau de bord.
+This 3-day project involves developing an inventory management system for a store (e.g., food, hygiene, clothing) using **MySQL** for the database and **Python** for the development of the dashboard.
 
 ---
 
-## 📅 Objectif du Mini Projet
+## 📅 Mini Project Goal
 
-L'objectif est de créer une application permettant de gérer les stocks et les produits d'un magasin. Les fonctionnalités incluent :
+The goal is to create an application to manage the inventory and products of a store. The features include:
 
-- Création d'une base de données MySQL nommée "store" avec les tables "product" et "category".
-- Insertion de produits et de catégories dans la base de données.
-- Développement d'un tableau de bord avec une interface graphique permettant :
-  - D'afficher la liste complète des produits en stock.
-  - D'ajouter, supprimer et modifier des produits (stock, prix, etc.).
- 
----
-
-## 🚀 Compétences Visées
-
-✔️ Maîtrise des bases de données.
-✔️ Maîtrise du SQL.
-✔️ Maîtrise de l'architecture POO en Python.
+- Creating a MySQL database named "store" with the "product" and "category" tables.
+- Inserting products and categories into the database.
+- Developing a dashboard with a graphical interface allowing:
+  - Displaying the full list of products in stock.
+  - Adding, removing, and modifying products (stock, price, etc.).
 
 ---
 
-🔗 _Références utiles :_  
+## 🚀 Skills Gained
 
-- [SQL - Documentation officielle](https://dev.mysql.com/doc/)
-- [Événements boutons - Tkinter](https://docs.python.org/3/library/tkinter.html)
+✔️ Mastery of databases.  
+✔️ Mastery of SQL.  
+✔️ Mastery of Object-Oriented Programming (OOP) architecture in Python.
+
+---
+
+🔗 _Useful References:_  
+
+- [SQL - Official Documentation](https://dev.mysql.com/doc/)
+- [Button Events - Tkinter](https://docs.python.org/3/library/tkinter.html)
 
 ---
